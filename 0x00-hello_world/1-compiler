@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -c $CFILE -o obj/main.o
+gcc -c $CFILE > $(echo $CFILE|cut -d"." -f1).o
