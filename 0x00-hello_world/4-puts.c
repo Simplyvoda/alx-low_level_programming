@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E 4-puts
+gcc -c 4-puts
