@@ -1,5 +1,4 @@
-#ifndef FILE_MAIN.H
-#define FILE_MAIN.H
+
 
 void print_alphabet(void);
 
@@ -29,4 +28,4 @@ int add(int a, int b);
 
 void print_to_98(int n);
 
-#endif
+
