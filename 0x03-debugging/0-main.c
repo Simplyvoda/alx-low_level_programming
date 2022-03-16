@@ -4,7 +4,7 @@
  *
  * Return: Always Success (0)
  *
- * */
+ **/
 int main(void)
 {
 	int i;
