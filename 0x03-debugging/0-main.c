@@ -4,11 +4,11 @@
  *
  * Return: Always Success (0)
  *
- * */
+ **/
 int main(void)
 {
 	int i;
-	i=50;
+	i=0;
 	positive_or_negative(i);
 
 	return (0);
