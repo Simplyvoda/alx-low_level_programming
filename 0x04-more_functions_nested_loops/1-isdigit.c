@@ -7,7 +7,7 @@
  *
  * @c: Number to be checked
  *
- * Return: 1 (Sucess) OR 0 (Failure)
+ * Return: 1 (Success) OR 0 (Failure)
  */
 
 int _isdigit(int c)
