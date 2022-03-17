@@ -13,6 +13,7 @@
 int _isdigit(int c)
 {
   char c;
+	
   if (isdigit(c))
 		return (1);
 	else
