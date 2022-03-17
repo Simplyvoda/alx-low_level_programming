@@ -1,4 +1,4 @@
-#MORE FUNCTIONS AND NESTED LOOPS
+#MORE_FUNCTIONS_AND_NESTED_LOOPS
 
 TASK 0: Write a function that checks for uppercase character.
 
