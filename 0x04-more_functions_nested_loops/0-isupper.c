@@ -4,11 +4,11 @@
 /**
  * main - check the code for uppercase.
  *
- * Return: Always 0
+ * Return: 1 or 0
  *
  * /
 
-int main(void);
+int _isupper(int c);
 {
     char c;
 
