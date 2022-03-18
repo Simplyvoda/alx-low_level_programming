@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * @a - first integer
- * @b - second integer
- * main - multiplies 2 integers
+ * a - first integer
+ * b - second integer
+ * mul - multiplies 2 integers
  * Return: Always 0
  */
 
