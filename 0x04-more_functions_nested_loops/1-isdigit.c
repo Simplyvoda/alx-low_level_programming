@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isdigit - checks for digits
@@ -11,10 +10,8 @@
 
 int _isdigit(int c)
 {
-	char c;
-	scanf("%c",&c);
-	if (isdigit(c))
-		return (1);
-	else
-		return (0);
+    if (c >= 48 && c <= 57)
+    return (1);
+    else 
+    return (0);
 }
