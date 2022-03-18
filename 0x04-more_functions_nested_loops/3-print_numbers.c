@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * ch - character
- *
  * print_numbers - prints numbers 0 to 9
+ *
+ * ch - character
  *
  * Return: 0
  */
