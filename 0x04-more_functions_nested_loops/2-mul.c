@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * @a - first integer
- *
- * @b - second integer
- *
+ * @brief this programme is by VODINA EFEM
  * mul - multiplies two integers
- *
- * Return: Always 0
+ * @param a is the first integer
+ * @param b is the second integer
+ * @return int
  */
 
 int mul(int a, int b)
