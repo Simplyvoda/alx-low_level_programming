@@ -6,7 +6,7 @@
  *
  * ch - character
  *
- * Return: 0
+ * Return: numbers 0 to 9
  */
 
 void print_numbers(void)
@@ -14,7 +14,9 @@ void print_numbers(void)
 	char ch = '0';
 
 	for (ch = '0'; ch <= '9'; ch++)
-		putchar(ch);
+	{
+		_putchar(ch);
+	}
 
-	return (0);
+	_putchar('\n');
 }
