@@ -1,19 +1,18 @@
 #include "main.h"
 #include <ctype.h>
-#include <stdio.h>
 
 /**
- * _isdigit - Checks for digits
+ * _isdigit - checkd for digits
  *
- * @c: Number to be checked
+ * @c: number to be checked
  *
- * Return: 1 (Success) OR 0 (Failure)
+ * Return: 1 or 0
  */
 
 int _isdigit(int c)
 {
-  char c;	
-  if (isdigit(c))
+	char c;
+	if (isdigit(c))
 		return (1);
 	else
 		return (0);
