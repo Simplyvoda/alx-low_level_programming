@@ -7,7 +7,7 @@
  * Return: Success
  */
 
-void print_string(char *s)
+void print_string(char *str)
 {
 	int i = 0;
 	while (str[i] != '\0')
@@ -29,6 +29,6 @@ int main(int argc __attribute((unused)), char *argv[])
 	{
 		print_string(argv[i]);
 		putchar('\n');
-		return;
+		return (0);
 	}
 }
