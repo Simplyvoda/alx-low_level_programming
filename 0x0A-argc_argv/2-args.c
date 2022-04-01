@@ -12,7 +12,7 @@
 void print_string(char *str)
 {
 	int i = 0;
-	
+
 	while (str[i] != '\0')
 	{
 		putchar(str[i]);
@@ -33,7 +33,7 @@ void print_string(char *str)
 int main(int argc, char *argv[])
 {
 	int i;
-	
+
 	for (i = 0; i < argc; i++)
 	{
 		print_string(argv[i]);
