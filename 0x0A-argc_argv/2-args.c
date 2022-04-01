@@ -13,7 +13,7 @@ void print_string(char *str)
 	while (str[i] != '\0')
 	{
 		putchar(str[i]);
-		i++
+		i++;
 	}
 }
 
@@ -29,6 +29,6 @@ int main(int argc __attribute((unused)), char *argv[])
 	{
 		print_string(argv[i]);
 		putchar('\n');
-		return (0);
 	}
+return (0);
 }
