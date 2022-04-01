@@ -23,12 +23,13 @@ void print_string(char *str)
  * Return: Success
  */
 
-int main(int argc __attribute((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	for (int i = 0; i < argc; i++)
+	int i;
+	for (i = 0; i < argc; i++)
 	{
 		print_string(argv[i]);
 		putchar('\n');
 	}
-return (0);
+	return (0);
 }
