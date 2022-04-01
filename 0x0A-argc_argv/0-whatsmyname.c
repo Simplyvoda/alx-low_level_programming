@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-void print_string(char *str);
 
 /**
  * main - Prints its name
@@ -10,7 +9,7 @@ void print_string(char *str);
  *
  * @argv: Arrays of strings of the program arguments
  *
- * Return: 0, Success
+ * Return: Success
  */
 
 int main(int argc __attribute__((unused)), char *argv[])
