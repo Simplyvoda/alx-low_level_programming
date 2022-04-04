@@ -9,7 +9,7 @@ void print_number(int num);
  *
  * @argv: Array of strings of the programs arguments
  *
- * Return: 0, Success
+ * Return: Success
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
@@ -31,6 +31,6 @@ void print_number(int num)
 {
 	if (num / 10)
 		print_number(num / 10);
-
+	
 	_putchar(num % 10 + '0');
 }
