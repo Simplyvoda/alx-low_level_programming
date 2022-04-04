@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	int a = 0, i, j;
-	
+
 	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j]; j++)
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 				puts("Error");
 				return (1);
 			}
-		}					
+		}
 	}
 	for (i = 1; i < argc; i++)
 	{
