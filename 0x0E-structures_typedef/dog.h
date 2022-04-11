@@ -11,9 +11,10 @@
  * @owner: owners name
  */
 
-struct dog{
-	char* name;
+struct dog
+{
+	char *name;
 	float age;
-	char* owner;
+	char *owner;
 };
 #endif
