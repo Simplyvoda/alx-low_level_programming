@@ -3,6 +3,8 @@
 /**
  * print_line - prints line to terminal
  *
+ * @n: integer argument
+ *
  * Return: void
  */
 
@@ -20,7 +22,7 @@ void print_line(int n)
 		{
 			_putchar(95);
 		}
+
+		_putchar('\n');
 	}
-	
-	_putchar('\n');
 }
