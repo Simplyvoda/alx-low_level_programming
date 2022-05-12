@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - A fizz buzz program
+ * main - Prints a Fizz Buzz program
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	int a;
 
@@ -15,20 +15,28 @@ int main()
 	{
 		if ((a % 3 == 0) && (a % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (a % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (a % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", a);
+			printf("%d", a);
+		}
+
+		if (a != 100)
+		{
+			printf(" ");
 		}
 	}
-	return 0;
+
+	printf("\n");
+
+	return (0);
 }
