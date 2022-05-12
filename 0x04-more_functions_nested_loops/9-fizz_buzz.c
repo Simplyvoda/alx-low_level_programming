@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int a;
 
@@ -30,5 +30,5 @@ int main()
 			printf("%d ", a);
 		}
 	}
-	return 0;
+	return (0);
 }
