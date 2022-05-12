@@ -4,22 +4,26 @@
 /**
  * print_most_numbers - prints numbers 0 to 9 without 2 and 4
  *
- * ch - character
- *
  * Return: void
  */
 
 void print_most_numbers(void)
 {
-	char ch = '0';
+	int i;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for ( i = 48; i <=57; i++)
 	{
-		if (ch == 2 || ch == 4)
+		if ( i == 50 || i == 52)
+		{
 			continue;
-
+		}
 		else
-			putchar(ch);
+		{
+			_putchar(i);
+		}
 	}
-	putchar('\n');
+
+	_putchar('\n');
+	return 0;
 }
+	
