@@ -7,7 +7,7 @@ target: source
 ```
 ### Note
 - Target: defines output file to be generated it is dependent on one or more sources
-- Source Input source code to be built
+- Source: Input source code to be built
 - Recipe: command to generate target
 
 ## Learning Objectives
