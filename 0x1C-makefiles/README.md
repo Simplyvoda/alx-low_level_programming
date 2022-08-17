@@ -1,4 +1,4 @@
-#Makefiles :smiley::smiley:
+# Makefiles :smiley::smiley:
 The make utility requires a file, Makefile (or makefile), which defines set of tasks to be executed.Makefiles are a list of make rules which contain: target, source and recipe.
 See Syntax below:
 ```
