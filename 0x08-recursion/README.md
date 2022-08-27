@@ -1,17 +1,16 @@
-#C - Recursion
+# C - Recursion :arrows_counterclockwise::arrows_counterclockwise:
+Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function.
+```
+void recursion() {
+   recursion(); /* function calls itself */
+}
 
-Task 0: Write a function that prints a string, followed by a new line.
+int main() {
+   recursion();
+}
+```
+The C programming language supports recursion, i.e., a function to call itself. But while using recursion, programmers need to be careful to define an exit condition from the function, otherwise it will go into an infinite loop.
 
-Task 1: Write a function that prints a string in reverse.
+Recursive functions are very useful to solve many mathematical problems, such as calculating the factorial of a number, generating Fibonacci series, etc.
 
-Task 2: Write a function that returns the length of a string.
-
-Task 3: Write a function that returns the factorial of a given number.
-
-Task 4: Write a function that returns the value of x raised to the power of y.
-
-Task 5: Write a function that returns the natural square root of a number.
-
-Task 6: Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
-
-Task 7-8: Advanced tasks
+[Source](https://www.tutorialspoint.com/cprogramming/c_recursion.htm)
