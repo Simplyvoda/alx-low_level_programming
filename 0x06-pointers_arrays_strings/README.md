@@ -1,2 +1,1 @@
-**more_pointers_arrays_strings**
-:smiley::smiley:
+# C - More pointers, arrays and strings  :smiley::arrow_right:
