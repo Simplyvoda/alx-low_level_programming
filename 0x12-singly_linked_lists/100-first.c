@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * beforeMain - Runs before the main fucntion
+ * premain - runs before main
  */
-
-void __attribute__((constructor)) beforeMain()
+void __attribute__((constructor)) premain()
 {
-	printf("You're beat! and yet, you must allow,\n%s",
-			"I bore my house upon my back!\n");
+	printf(
+	"You're beat! and yet, you must allow,\nI bore my house upon my back!\n"
+	);
 }
