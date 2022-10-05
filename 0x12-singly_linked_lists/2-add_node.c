@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <string.h>
-#include "strlen.c"
 #include "lists.h"
 
 /**
