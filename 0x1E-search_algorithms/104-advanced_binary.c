@@ -37,8 +37,7 @@ int binary_recursive(int *array, size_t lo, size_t hi, int value)
   * @size: The number of elements in the array.
   * @value: The value to search for.
   *
-  * Return: If the value is not present or the array is NULL, -1.
-  *         Otherwise, the first index where the value is located.
+  * Return: index of value or -1 if not found
   *
   * Description: Prints the [sub]array being searched after each change.
   */
